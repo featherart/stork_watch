@@ -9,6 +9,10 @@ Interesting to note:
  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
 
+- $http injection allows you to query URL's
+
+- respond_to :json & respond_with for CRUD methods in controller
+
 - also needed to run bundle install & bundle update to get Angular to load
 
 - 'Can't verify CSRF token authenticity' error in Rails 4, you need to add this to application controller:
